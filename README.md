@@ -38,6 +38,7 @@ $ pip install istop
 [2, 3, 4, 1, 5]
 >> print(result.worst_similarities)
 [0.56842726 0.18322884 0.43760627 0.55861195 0.68474356]
+
 >>> print(result)
 best_ranks=[2, 3, 4, 1, 5]
 best_similarities=[0.43157274 0.81677116 0.56239373 0.44138805 0.31525644]
