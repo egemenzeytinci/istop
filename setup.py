@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf8') as f:
 
 setuptools.setup(
     name='istop',
-    version='0.0.1',
+    version='0.0.1.1',
     author='Egemen Zeytinci',
     author_email='egemenzeytinci@gmail.com',
     description='Python implementation of TOPSIS method',
