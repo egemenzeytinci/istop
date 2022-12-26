@@ -149,7 +149,7 @@ class Topsis:
         """
         # if no weights are used for observations
         if self._weights is None:
-            self._weights = [1] * self._weights
+            self._weights = [1] * len(self._criteria)
 
         # check the type of given parameters
         self._check_types()
