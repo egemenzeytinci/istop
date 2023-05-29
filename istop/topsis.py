@@ -37,7 +37,7 @@ class Topsis:
             raise TypeError('Invalid data type for criteria')
 
         if not isinstance(self._weights, list):
-            raise Exception('Invalid data type for weights')
+            raise TypeError('Invalid data type for weights')
 
     def normalize(self) -> np.ndarray:
         """
